@@ -1,0 +1,9 @@
+header{
+	border: 1px solid brown;
+	background-color: darkblue;
+	color: white;
+	text-align: left;
+	height: 14vh;
+	display: flex;
+	align-items: center;
+}
