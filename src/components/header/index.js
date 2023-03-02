@@ -9,10 +9,8 @@ function BlogHeader(){
 		<div>
 			<header>
 				<nav>
+					<img className="nav-logo" src={ydLogo} />
 					<ul className="menu-list">
-						<li>
-							<img src={ydLogo} />
-						</li>
 						<li>
 							<img id="djilogo" src={djiLogo} />
 						</li>
