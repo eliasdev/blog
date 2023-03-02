@@ -39,13 +39,17 @@ li h1{
 .menu-list{
 	display: flex;
 	justify-content: flex-end;
+	align-items: center;
 }
-.menu-list > li{/*
-	margin-right: 10vh;*/
+.menu-list > li{
+	margin-right: 1vw;
 }
 .menu-list :nth-child(1) {
 
 }
 .menu-list :nth-child(2) {
 	
+}
+.menu-list *:last-child{
+	margin-right: 5vw;
 }
