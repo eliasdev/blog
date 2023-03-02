@@ -1,9 +1,39 @@
 header{
-	border: 1px solid brown;
-	background-color: darkblue;
-	color: white;
-	text-align: left;
-	height: 14vh;
+  background-color: #282c34;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+nav{
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
+}
+
+.menu-list{
+	display: flex;
+}
+.menu-list > li{
+	padding: 10vh;
+}
+
+header img{
+	width: 13%;
+}
+
+summary{
+	padding: 5vh;
+	text-align: left;
+}
+
+li{
+	list-style: none;
+}
+
+#djilogo{
+	border-radius: 15vh;
 }
