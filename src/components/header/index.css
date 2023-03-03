@@ -41,9 +41,6 @@ li h1{
 	justify-content: flex-end;
 	align-items: center;
 }
-.menu-list > li{
-	margin-right: 1vw;
-}
 .menu-list :nth-child(1) {
 
 }
